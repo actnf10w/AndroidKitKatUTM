@@ -43,17 +43,13 @@ Step 12: Hightlight the option “Android-x86 4.4-r1” and boot it, and be welc
 # Extra 
 1, Change resolution especially for iPhones
 
-Go to the Terminal Emulator app in the VM and type `su` and grant superuser rights;
-
-type 
-```shell 
+Go to the Terminal Emulator app in the VM and type
+```shell
+su
 wm size 720x1280
+wm density 350
+reboot
 ```
-to change the resolution and make it fit the iPhone screen;
-
-type `wm density 350` to make the text larger
-
-type `reboot` 
 
 2, Broken Launcher app icon movement
 
@@ -84,3 +80,14 @@ chown 1000:1000 /data/system/users/0/wallpaper
 chmod 600 /data/system/users/0/wallpaper
 killall com.android.systemui
 ```
+
+Resetting changes:
+```shell
+su
+rm -f /data/system/users/0/wallpaper
+rm -f /data/system/users/0/wallpaper_info.xml
+killall com.android.systemui
+```
+
+That’s all, play well, install Xposed, customize with GravityBox[KK], and set your preferred launcher and icon pack, bear in mind, always get the x86 apk!!
+
