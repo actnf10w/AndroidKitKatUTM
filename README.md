@@ -64,3 +64,17 @@ The VM connects to the internet, but the built in browser is ancient Chromium 30
 You are highly recommended to install the [ISRG Root X1 certificare from Lets Encrypt](https://letsencrypt.org/certificates/) which fix connection issues only.
 >[!NOTE]
 >If you want to download files, the most reliable way is to download it on your iPhone and transfer it into the VM with a local file hoster app over wifi.
+
+4, Broken Gallery app
+
+The Gallery app is broken and will crash, you should install an alternative if you want to manage images and videos in the VM.
+
+This also prevents you from changing the default wallpaper, because it has to use the Gallery app to preview the image. But you can use these commands in the Terminal app instead. Please change the file path, file name and extention in the command:D
+
+Setting alternative wallpaper:
+`su
+cp /sdcard/Download/my_wallpaper.jpg /data/system/users/0/wallpaper
+rm -f /data/system/users/0/wallpaper_info.xml
+chown 1000:1000 /data/system/users/0/wallpaper
+chmod 600 /data/system/users/0/wallpaper
+killall com.android.systemui`
