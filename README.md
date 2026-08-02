@@ -1,6 +1,6 @@
 # AndroidKitKatUTM
 Run Android-x86’s KitKat system in UTM. Works on all Apple devices with UTM or UTM SE installed.
-# Comaptibility
+# What You Need
 • Any iOS/iPadOS/MacOS device with UTM or UTM SE installed.
 
 • Need at least 512MB memory for the VM.
