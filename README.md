@@ -51,3 +51,16 @@ type `wm density 350` to make the text larger
 
 type `reboot` 
 
+2, Broken Launcher app icon movement
+
+Both the Trebuchet Launcher or third party Nova Launcher are facing issues moving the app icons, they may drop back to the original slot before you can even move them to the desired place.
+
+Please continually try to move the icon, because it works sometimes, but it may be really time consuming and ‘finger aching’.
+
+3, No modern web
+
+The VM connects to the internet, but the built in browser is ancient Chromium 30, you obviously cannot browse modern webpages, other side loaded browsers always fail, the reason is unclear. 
+
+You are highly recommended to install the [ISRG Root X1 certificare from Lets Encrypt](https://letsencrypt.org/certificates/) which fix connection issues only.
+
+```diff+ If you want to download files, the most reliable way is to download it on your iPhone and transfer it into the VM with a local file hoster app over wifi. ```
