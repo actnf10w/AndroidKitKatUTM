@@ -54,6 +54,7 @@ Resetting changes:
 ```shell
 su
 wm reset
+reboot
 ```
 
 2, Broken Launcher app icon movement
