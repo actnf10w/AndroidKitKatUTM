@@ -50,6 +50,11 @@ wm size 720x1280
 wm density 350
 reboot
 ```
+Resetting changes:
+```shell
+su
+wm reset
+```
 
 2, Broken Launcher app icon movement
 
