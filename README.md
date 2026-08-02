@@ -40,3 +40,7 @@ Step 10: Choose sda5 and choose ext3 next. Choose yes when asking if you want to
 Step 11: Choose reboot and then eject the iso.(press the 💿 icon, tap your attached iso and eject it)
 
 Step 12: Hightlight the option “Android-x86 4.4-r1” and boot it, and be welcomed by the setup wizard! Installation successful!
+# Extra 
+1, Change resolution especially for iPhones
+Go to the Terminal Emulator app in the VM and type ‘su’ and grant superuser rights->type ‘wm size 720x1280’ to change the resolution and make it fit the iPhone screen->
+
