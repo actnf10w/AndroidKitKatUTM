@@ -45,7 +45,7 @@ Step 12: Hightlight the option “Android-x86 4.4-r1” and boot it, and be welc
 
 Go to the Terminal Emulator app in the VM and type `su` and grant superuser rights;
 
-type ```1stwm size 720x1280``` 1st to change the resolution and make it fit the iPhone screen;
+type `wm size 720x1280` to change the resolution and make it fit the iPhone screen;
 
 type `wm density 350` to make the text larger
 
@@ -72,9 +72,11 @@ The Gallery app is broken and will crash, you should install an alternative if y
 This also prevents you from changing the default wallpaper, because it has to use the Gallery app to preview the image. But you can use these commands in the Terminal app instead. Please change the file path, file name and extention in the command:D
 
 Setting alternative wallpaper:
-`su
+```shell
+su
 cp /sdcard/Download/my_wallpaper.jpg /data/system/users/0/wallpaper
 rm -f /data/system/users/0/wallpaper_info.xml
 chown 1000:1000 /data/system/users/0/wallpaper
 chmod 600 /data/system/users/0/wallpaper
-killall com.android.systemui`
+killall com.android.systemui
+```
