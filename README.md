@@ -1,15 +1,15 @@
 # AndroidKitKatUTM
-Run Android-x86’s KitKat system in [UTM](https://docs.getutm.app/).Works on all Apple devices with [UTM](https://docs.getutm.app/) or UTM SE installed.
+Run Android-x86’s KitKat system in [UTM](https://docs.getutm.app/).Works on all Apple devices with [UTM](https://docs.getutm.app/) or [UTM SE](https://apps.apple.com/hk/app/utm-se-retro-pc-emulator/id1564628856)installed.
 # Prerequisite 
-• Any iOS/iPadOS/MacOS device with [UTM](https://docs.getutm.app/) or UTM SE installed.[(Install Guide)](https://getutm.app/install/)
+• Any iOS/iPadOS/MacOS device with [UTM](https://docs.getutm.app/) or [UTM SE](https://apps.apple.com/hk/app/utm-se-retro-pc-emulator/id1564628856) installed.[(Install Guide)](https://getutm.app/install/)
 
 • Need at least 512MB memory for the VM.
 
-• JIT is not strictly required. But you are recommended to use JIT via Stikdebug or Trollstore etc for a faster performance.
+• JIT is not strictly required. But you are recommended to use JIT via [Stikdebug](https://stikdebug.xyz/) or [Trollstore](https://github.com/opa334/TrollStore) etc for a faster performance.
 # Installation
 Step 1: Everything from prerequisite 
 
-Step 2: Go to UTM settings->touch input->change to touch mode(try hiding curser)
+Step 2: Go to [UTM](https://docs.getutm.app/) settings->touch input->change to touch mode(try hiding curser)
 
 Step 3: Two paths
 
@@ -23,7 +23,7 @@ Step 6: Boot the VM and play!
 
 Path 2:
 
-Step 4: Download the Android-x86 4.4-r1 install iso from a trusted source like Internet Archive. Not the x86_64 one.
+Step 4: Download the Android-x86 4.4-r1 install iso from a trusted source like [Internet Archive](https://archive.org/details/sjarb_android_4.4r1). Not the x86_64 one.
 
 Step 5: Create a new VM, select Emulation, or virtualization if you are on x86 Mac. Select OS as Windows. Toggle UEFI boot and install Windows 10 or later to off. Tap browse and attach the downloaded iso.
 
