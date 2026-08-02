@@ -43,7 +43,11 @@ Step 12: Hightlight the option “Android-x86 4.4-r1” and boot it, and be welc
 # Extra 
 1, Change resolution especially for iPhones
 
-Go to the Terminal Emulator app in the VM and type ‘su’ and grant superuser rights;
+Go to the Terminal Emulator app in the VM and type `su` and grant superuser rights;
 
-type ‘wm size 720x1280’ to change the resolution and make it fit the iPhone screen;
+type `wm size 720x1280`to change the resolution and make it fit the iPhone screen;
+
+type `wm density 350` to make the text larger
+
+type `reboot` 
 
