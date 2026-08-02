@@ -11,6 +11,17 @@ Step 1: Everything from prerequisite
 
 Step 2: Go to UTM settings->touch input->change to touch mode(try hiding curser)
 
-Step 3: Two options
+Step 3: Two paths
 
-Option 1: Download the *.zip from releases and unzip it into a desired destination in the Files app or UTM folder, you will see a .utm folder there.
+Path 1: 
+
+Step 4: Download the *.zip from releases and unzip it into a desired destination in the Files app or UTM folder, you will see a .utm folder there.
+
+Step 5: Enable JIT(Optional)
+
+Step 6: Boot the VM and play!
+
+
+
+
+
