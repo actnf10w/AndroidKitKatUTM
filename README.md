@@ -30,3 +30,13 @@ Step 5: Create a new VM, select Emulation, or virtualization if you are on x86 M
 Step 6: Click next, and assign at least 512 MB ram to the VM.Click next again, and assign no less than 8GB storage to the VM on the next screen. Skip shared directory and change the VM’s name and icon if you want.
 
 Step 7: Now boot.
+
+Step 8: After entering the menu, select installing Android-x86 to harddisk and in the next popup choose create/modify partitions.
+
+Step 9: In the partition table, choose New->Logical->Press enter on next screen->Bootable->Write->Type ‘yes’ manually->(wait a sec)Quit 
+
+Step 10: Choose sda5 and choose ext3 next. Choose yes when asking if you want to write sda5 to ext3, and install boot loader GRUB. Install /system directory as read and write.(wait a sec)
+
+Step 11: Choose reboot and then eject the iso.(press the 💿 icon, tap your attached iso and eject it)
+
+Step 12: Hightlight the option “Android-x86 4.4-r1” and boot it, and be welcomed by the setup wizard! Installation successful!
