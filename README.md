@@ -1,5 +1,5 @@
 # AndroidKitKatUTM
-Run Android-x86’s KitKat system in [UTM](https://docs.getutm.app/).Works on all Apple devices with [UTM](https://docs.getutm.app/) or [UTM SE](https://apps.apple.com/hk/app/utm-se-retro-pc-emulator/id1564628856)installed.
+Run [Android-x86](https://www.android-x86.org/)’s [KitKat](https://developer.android.com/about/versions/kitkat?hl=zh-tw) OS in [UTM](https://docs.getutm.app/).Works on all Apple devices with [UTM](https://docs.getutm.app/) or [UTM SE](https://apps.apple.com/hk/app/utm-se-retro-pc-emulator/id1564628856)installed.
 # Prerequisite 
 • Any iOS/iPadOS/MacOS device with [UTM](https://docs.getutm.app/) or [UTM SE](https://apps.apple.com/hk/app/utm-se-retro-pc-emulator/id1564628856) installed.[(Install Guide)](https://getutm.app/install/)
 
