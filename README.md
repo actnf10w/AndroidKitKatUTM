@@ -21,7 +21,12 @@ Step 5: Enable JIT(Optional)
 
 Step 6: Boot the VM and play!
 
+Path 2:
 
+Step 4: Download the Android-x86 4.4-r1 install iso from a trusted source like Internet Archive. Not the x86_64 one.
 
+Step 5: Create a new VM, select Emulation, or virtualization if you are on x86 Mac. Select OS as Windows. Toggle UEFI boot and install Windows 10 or later to off. Tap browse and attach the downloaded iso.
 
+Step 6: Click next, and assign at least 512 MB ram to the VM.Click next again, and assign no less than 8GB storage to the VM on the next screen. Skip shared directory and change the VM’s name and icon if you want.
 
+Step 7: Now boot.
